@@ -1,5 +1,3 @@
-import { rejects } from "assert";
-import { resolve } from "path";
 import { getCookie } from "./authenticate";
 
 const httpService = {

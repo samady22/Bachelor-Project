@@ -4,8 +4,8 @@ import "./App.css";
 import SignInPage from "./content/AuthPage/SignInPage";
 import Navbar from "./components/Header/Navbar";
 import HomePage from "./content/HomePage/HomePage";
-import { useState, useEffect } from "react";
-import { getCookie, getCurrentUser } from "./services/authenticate";
+import { useState } from "react";
+import { getCookie } from "./services/authenticate";
 import _ from "lodash";
 import React from "react";
 import FlightDetailPage from "./content/FlightDetailPage/FlightDetailPage";
@@ -17,7 +17,6 @@ function App() {
   const theme = createTheme();
   const [isSignIn, setIsSignIn] = useState(false);
   const [flightData, setFlightData] = useState([{}]);
-  // const [places, setPlaces] = useState([{}]);
   const [isSaved, setIsSaved] = useState(false);
 
   React.useEffect(() => {
@@ -42,7 +41,6 @@ function App() {
                 setIsSaved={setIsSaved}
                 isSignIn={isSignIn}
                 setFlightData={setFlightData}
-                // setPlaces={setPlaces}
               />
             }
           />
@@ -58,7 +56,6 @@ function App() {
                 isSaved={isSaved}
                 setIsSaved={setIsSaved}
                 flightData={flightData}
-                // places={places}
               />
             }
           />

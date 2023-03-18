@@ -1,4 +1,3 @@
-import _ from "lodash";
 import { useEffect, useState } from "react";
 import flightService from "../../services/flightService";
 import FlightDetailPage from "./FlightDetailPage";
