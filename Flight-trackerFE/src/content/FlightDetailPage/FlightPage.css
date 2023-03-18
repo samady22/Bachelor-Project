@@ -1,0 +1,74 @@
+.flight-detail_arival-departure {
+  display: flex;
+}
+.flight-detail_place-map {
+  display: flex;
+}
+
+.flight-detail_aircraft {
+  border: 2px solid lightgrey;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+}
+.flight-detail_arival-departure_child {
+  width: 50%;
+  padding: 5px;
+  margin: 5px;
+  border: 2px solid lightgrey;
+  border-radius: 5px;
+}
+
+.listDetail {
+  overflow: scroll;
+  height: 515px;
+}
+.flight-detail_place-map_child1 {
+  width: 35%;
+  padding: 5px;
+  margin: 5px;
+  border: 2px solid lightgrey;
+  border-radius: 5px;
+}
+.flight-detail_place-map_child2 {
+  width: 65%;
+  padding: 5px;
+  margin: 5px;
+  border: 2px solid lightgrey;
+  border-radius: 5px;
+}
+
+.flight-detail_buttons {
+  display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+  .flight-detail_arival-departure {
+    display: block;
+  }
+  .flight-detail_arival-departure_child {
+    width: auto;
+  }
+
+  .flight-detail_place-map {
+    display: block;
+  }
+  .flight-detail_place-map_child1 {
+    width: auto;
+  }
+  .flight-detail_place-map_child2 {
+    position: relative;
+    width: auto;
+    height: 500px;
+  }
+  .flight-detail_buttons {
+    display: block;
+  }
+}
+
+.flight-detail__err-msg {
+  border: 1px solid rgb(159, 24, 24);
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+}

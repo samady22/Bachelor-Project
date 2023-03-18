@@ -1,0 +1,46 @@
+video {
+  object-fit: cover;
+  width: 100%;
+  height: 50vh;
+  z-index: -10;
+  position: relative;
+}
+
+.home-page-bg {
+  height: 100vh;
+  width: 100%;
+}
+
+.MuiDataGrid-columnHeaders {
+  background-color: lightgray;
+}
+
+.MuiDataGrid-virtualScrollerRenderZone {
+  cursor: pointer;
+}
+
+.home-page_search-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  background-color: white;
+  max-width: 600px;
+}
+.home-page_search-button {
+  margin-left: 10px;
+}
+@media only screen and (max-width: 600px) {
+  video {
+    height: 40vh;
+  }
+  .home-page_search-box {
+    display: block;
+    max-width: 400px;
+  }
+  .home-page_search-box button {
+    margin-top: 5px;
+    margin-left: auto;
+    width: 100%;
+  }
+}
