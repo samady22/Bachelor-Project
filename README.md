@@ -1,5 +1,9 @@
 # Flight Tracker
 
+<p align="center">
+Flight travel companion as a progressive web application
+</p>
+
 Flight Tracker is a web application that allows users to track flights in real-time. It consists of a frontend built with React.js and Material UI, and a backend built with Nest.js and Node.js v16.
 
 ## Getting Started
@@ -47,8 +51,8 @@ Once the servers are running, you can access the application by navigating to ht
 
 Contributions are welcome! If you would like to contribute to this project, please follow these steps:
 
-1 - Fork this repository.
-2 - Create a new branch for your changes.
-3 - Make your changes and commit them with descriptive commit messages.
-4 - Push your changes to your fork.
-5 - Submit a pull request to this repository.
+- Fork this repository.
+- Create a new branch for your changes.
+- Make your changes and commit them with descriptive commit messages.
+- Push your changes to your fork.
+- Submit a pull request to this repository.
